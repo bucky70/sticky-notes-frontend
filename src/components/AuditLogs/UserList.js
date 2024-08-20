@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import { MdOutlineEmail } from "react-icons/md";
 import { MdDateRange } from "react-icons/md";
 
-//Material ui data grid has used for the table
+//Material ui data grid has been used for the table
 //initialize the columns for the tables and (field) value is used to show data in a specific column dynamically
 export const userListsColumns = [
   {

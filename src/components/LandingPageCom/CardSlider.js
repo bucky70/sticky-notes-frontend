@@ -20,7 +20,7 @@ export default function CardSlider() {
       >
         <SwiperSlide className="flex justify-center items-center rounded-md text-white font-bold text-xl">
           <div className="bg-btnColor flex justify-center items-center h-full">
-            Secure Notes
+            Sticky Notes
           </div>
         </SwiperSlide>
         <SwiperSlide className="flex justify-center items-center rounded-md text-white font-bold text-xl">

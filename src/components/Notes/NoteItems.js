@@ -1,4 +1,5 @@
 import { MdRemoveRedEye } from "react-icons/md";
+import { MdDeleteForever } from "react-icons/md";
 import Tooltip from "@mui/material/Tooltip";
 import { IconButton } from "@mui/material";
 import { truncateText } from "../../utils/truncateText";
@@ -9,7 +10,7 @@ import moment from "moment";
 const NoteItems = ({ parsedContent, id, createdAt }) => {
   const formattedDate = moment(createdAt).format("D MMMM YYYY");
   return (
-    <div className="sm:px-5 px-2 py-5 shadow-md bg-noteColor shadow-white rounded-lg min-h-96 max-h-96 relative overflow-hidden ">
+    <div className="sm:px-5 px-2 py-5 shadow-md bg-noteColor hover:shadow-black rounded-lg min-h-96 max-h-96 relative overflow-hidden ">
       <p
         className="text-black font-customWeight ql-editor"
         dangerouslySetInnerHTML={{ __html: truncateText(parsedContent) }}
@@ -24,6 +25,7 @@ const NoteItems = ({ parsedContent, id, createdAt }) => {
             </IconButton>
           </Tooltip>
         </Link>
+        
       </div>
     </div>
   );
