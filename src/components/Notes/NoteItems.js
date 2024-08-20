@@ -1,5 +1,4 @@
 import { MdRemoveRedEye } from "react-icons/md";
-import { MdDeleteForever } from "react-icons/md";
 import Tooltip from "@mui/material/Tooltip";
 import { IconButton } from "@mui/material";
 import { truncateText } from "../../utils/truncateText";

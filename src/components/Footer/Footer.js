@@ -36,7 +36,7 @@ const Footer = () => {
         </ul>
 
         <p className="w-fit  flex items-center text-white text-sm">
-          <span>&copy;{currentYear} SecureNote | All rights reserved.</span>
+          <span>&copy;{currentYear} StickyNotes | All rights reserved.</span>
         </p>
 
         <div className="flex-1  flex flex-row gap-6 lg:justify-end justify-start items-center">
