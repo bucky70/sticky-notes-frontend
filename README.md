@@ -1,3 +1,12 @@
+Publically hosted on netlify,
+
+https://sticky-notes-saikumar.netlify.app/login
+
+Default username: DefaultUser
+Default password: DefaultPassword
+Default mail: saikumarpadamati13@gmail.com
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
